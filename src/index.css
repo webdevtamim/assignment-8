@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+}
+
+/* navbar list item modify */
+
+.navbar .active {
+    background: none !important;
+    color: #FF444A !important;
+    text-decoration: underline;
+}
+
+.importance:active {
+    background: none !important;
+    color: #FF444A !important;
+}
