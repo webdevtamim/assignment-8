@@ -21,3 +21,7 @@ body {
     background: none !important;
     color: #FF444A !important;
 }
+
+#banner-overlay {
+    background: rgba(255, 255, 255, 0.95);
+}

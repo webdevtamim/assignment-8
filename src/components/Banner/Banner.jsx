@@ -1,8 +1,13 @@
 const Banner = () => {
     return (
-        <div>
-            <h2 className="text-center text-5xl text-[#0B0B0B] font-bold">I Grow By Helping People In Need</h2>
-            <form action=""></form>
+        <div className="bg-[url('../src/assets/donation.png')] bg-no-repeat bg-cover bg-center -mt-36">
+            <div id="banner-overlay" className="space-y-10 pt-60 pb-52 px-5">
+            <h2 className="text-center lg:text-5xl md:text-4xl text-3xl text-[#0B0B0B] font-bold">I Grow By Helping People In Need</h2>
+            <form className="lg:w-[500px] md:w-[450px] max-w-[400px] mx-auto flex">
+                <input className="bg-white border py-4 px-4 text-sm text-[#BBB766] rounded-l-lg outline-none w-3/4" type="text" name="text" placeholder="Search here...." />
+                <input className="bg-[#FF444A] py-4 px-7 font-semibold text-white rounded-r-lg w-1/4" type="submit" value="Search" />
+            </form>
+        </div>
         </div>
     );
 };
