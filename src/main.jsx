@@ -9,6 +9,7 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Details from './components/Details/Details';
 import Donation from './components/Donation/Donation';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: 'This is Statistics page'
+        element: <Statistics></Statistics>
       },
       {
         path: '/:id',
