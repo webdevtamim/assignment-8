@@ -12,12 +12,12 @@ const Header = () => {
                     <img className='md:w-fit sm:w-2/3 w-3/4' src={Logo} alt="Logo" />
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 space-x-8">
+                    <ul className="menu menu-horizontal px-0 sm:space-x-8 space-x-3">
                         {
                             listItems.map((listItem, index) => (
                                 <li key={index}>
                                     <NavLink
-                                        className='md:text-lg text-base text-[#0B0B0B] font-bold hover:bg-transparent hover:underline hover:text-[#FF444A] underline-offset-4 importance p-0'
+                                        className='md:text-lg sm:text-base text-sm text-[#0B0B0B] font-bold hover:bg-transparent hover:underline hover:text-[#FF444A] underline-offset-4 importance p-0'
                                         to={listLinks[index]}
                                     >
                                         {listItem}
